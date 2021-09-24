@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap%27");
+
+body {
+  background-color: #ffffff;
+  font-family: "Open Sans";
+  margin: 0;
+  text-decoration: none;
+}
+
+main {
+    min-height: 100vh;
+}
+
+input {
+  width: 100%;
+}
+/* Hamburger */
+
+.animation {
+  display: none;
+}
+
+.line {
+  height: 0.2rem;
+  width: 2.3rem;
+  margin-bottom: 0.6rem;
+  background-color: #fff;
+  transition: all 0.4s;
+  display: block;
+}
+
+.hamburger-icon {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.hamburger-icon:hover .line {
+  width: 2.5rem;
+}
+
+.checkbox:checked ~ .topnav {
+  margin-left: 0;
+  transition: all 0.4s;
+}
+
+.checkbox:checked ~ .animation .line-1 {
+  transform: rotate(-405deg) translate(-12px, 6px);
+  width: 2.5rem;
+}
+
+.checkbox:checked ~ .animation .line-2 {
+  opacity: 0;
+}
+
+.checkbox:checked ~ .animation .line-3 {
+  transform: rotate(405deg) translate(-12px, -6px);
+  width: 2.5rem;
+}
+
+/* Header */
+header {
+  height: 140px;
+  width: 100%;
+  z-index: 2;
+  background: #002558;
+  position: relative;
+}
+
+.logo {
+  float: left;
+  margin: 20px 15px 0 15px;
+}
+
+/* FOOTER */
+
+.footer_container {
+  margin: 0 auto;
+  background-color: #002558;
+  padding: 1rem 1rem;
+  /* height: 3rem; */
+  text-decoration: none;
+  text-align: center;
+  color: white;
+}
+
+span a {
+  color: #fff;
+}
+
+span.footer-links,
+span.copy {
+  margin: 15px 0 15px 0;
+}
+
+
+/* .copy-container {
+  
+} */
+
+.copy {
+  font-size: 12px;
+}
+
+.footer-links a:hover {
+  color: #002558;
+  transition: .2s ease-in;
+}
+
+.fab {
+  margin-top: 10px;
+  font-size: 22px;
+  padding: 5px;
+}
+
+.fab:hover {
+  color: #002558;
+  transition: .2s ease-in;
+}
+
+.social-media {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
