@@ -162,6 +162,34 @@ h2 {
 
 }
 
+.paragraph-explore {
+  color:#fff; 
+  margin: 1rem;
+}
+
+.kids-p-container {
+  background-color: #21478a;
+  width: 452px;
+  height: 450px;
+  margin: 1rem;
+
+}
+
+.teacher-p-container {
+  background-color: #21478a;
+  width: 452px;
+  height: 220px;
+  margin: 1rem;
+
+}
+
+.researcher-p-container {
+  background-color: #21478a;
+  width: 452px;
+  height: 190px;
+  margin: 1rem;
+}
+
 h2 > div {
 
 }
@@ -173,9 +201,17 @@ h2 > div > p {
 h3 {
 
 }
+ p {
+   color:#21478a;
+ }
+
  h3 > p {
 
  }
+
+ .events-container {
+ }
+
 
  h3 > p > a {
 
@@ -229,6 +265,26 @@ h2 {
 
 }
 
+.cosmo-p-container {
+
+}
+
+.evo-p-container {
+
+}
+
+.bio-p-container {
+
+}
+
+.robot-p-container {
+
+}
+
+.eco-p-container {
+
+}
+
 h2 > img {
 
 }
@@ -252,6 +308,18 @@ img {
 }
 
 h2 {
+
+}
+
+.support-p-container {
+
+}
+
+.volunteer-p-container {
+
+}
+
+.internership-p-container {
 
 }
 
@@ -284,6 +352,15 @@ h1 {
 img {
 
 }
+
+.admission-p-container {
+
+}
+
+.hours-p-container {
+
+}
+
 
 h2 {
 
