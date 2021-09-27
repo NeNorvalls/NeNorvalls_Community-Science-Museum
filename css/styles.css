@@ -1,21 +1,60 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap%27");
 
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
   background-color: #ffffff;
   font-family: "Open Sans";
   margin: 0;
   text-decoration: none;
+  overflow-x: hidden;
 }
 
 main {
     min-height: 100vh;
 }
 
+/* Reusable styles */
+.container {
+  width: 100%;
+  max-width: 130rem;
+  padding: 0 1.5rem;
+  margin: 0 auto;
+}
+
+.main-heading{
+  color: #000;
+  line-height: 1;
+  text-shadow: 1px 1px 1rem rgba(0,0,0,.5);
+  margin-bottom: 2.5rem;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
 input {
   width: 100%;
 }
-/* Hamburger */
 
+.topnav {
+  display: inline-block;
+}
+.topnav a {
+  color: #fff;
+  font-weight: bold;
+  margin-left: 1rem;
+
+}
+
+/* Hamburger */
 .animation {
   display: none;
 }
@@ -60,17 +99,208 @@ input {
 
 /* Header */
 header {
-  height: 140px;
+  height: 6rem;
   width: 100%;
-  z-index: 2;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
   background: #002558;
-  position: relative;
 }
 
 .logo {
   float: left;
-  margin: 20px 15px 0 15px;
+  justify-content: center;
+  margin-left: 1rem;
+  margin-right: .7rem;
 }
+
+.logo-text {
+  color: #fff;
+  font-weight: bold;
+  justify-content: center;
+  margin-top: 1.4rem;
+  display: inline-block;
+}
+
+
+/* Index */
+
+/* Hero styles */
+.hero{
+  width: 100%;
+  height: 100vh;
+  background: url("/images/index-cover.jpg") center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+
+
+h1 {
+
+}
+
+div{
+
+}
+
+div > p {
+
+}
+
+img {
+
+}
+
+h2 {
+
+}
+
+h2 > div {
+
+}
+
+h2 > div > p {
+
+}
+
+h3 {
+
+}
+ h3 > p {
+
+ }
+
+ h3 > p > a {
+
+ }
+
+ h3 > p > a:hover {
+
+ }
+
+
+/* contact */
+h1 {
+
+}
+
+form {
+
+}
+
+form > table {
+
+}
+
+form > table > tr {
+
+}
+
+form > table > tr > td {
+
+}
+
+form > table > tr > td > input {
+
+}
+
+ form > table > tr > td > textarea {
+
+ }
+
+
+/* exhibitions */
+h1 {
+
+}
+
+h1 > img {
+
+}
+
+h2 {
+
+}
+
+h2 > img {
+
+}
+
+h2 > div {
+
+}
+
+h2 > div > p {
+
+}
+
+
+/* get-involved */
+h1 {
+
+}
+
+img {
+
+}
+
+h2 {
+
+}
+
+h2 > div {
+
+}
+
+h2 > div > p {
+
+}
+
+h2 > div > p > a {
+
+}
+
+h2 > div > p > a:hover {
+
+}
+
+
+/* visit-us */
+div {
+
+}
+
+h1 {
+
+}
+
+img {
+
+}
+
+h2 {
+
+}
+
+div > p {
+
+}
+
+div > p > a {
+
+} 
+
+div > p > a:hover {
+
+}
+
 
 /* FOOTER */
 
