@@ -405,6 +405,7 @@ h2 > div > p {
     color: #21478A;
     margin-bottom: 2.5rem;
     text-align: center;
+    margin-top: 6rem;
 }
 
 .involved-sub-heading {
@@ -430,6 +431,14 @@ h2 > div > p {
 .section-heading {
     text-align: center;
     margin-bottom: 5rem;
+}
+
+.paragraph{
+  margin-bottom: 2rem;
+}
+.btn-wrap {
+  margin-top: auto;
+  margin-bottom: 2rem;
 }
 
 .btn{
