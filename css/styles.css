@@ -158,9 +158,17 @@ header {
   position: relative;
 }
 
-.paragraph-explore {
-  color:#fff; 
+.container >.paragraph {
+  color: #21478a;
   margin: 1rem;
+}
+
+.container > a{
+ 
+}
+.container > a:hover {
+  background-color: #21478a;
+  color: #cefdaf;
 }
 
 .kids-p-container 
