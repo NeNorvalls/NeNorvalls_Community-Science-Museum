@@ -150,34 +150,12 @@ header {
 .hero{
   width: 100%;
   height: 100vh;
-  background: url("/images/index-cover.jpg") center no-repeat;
+  background: url('/images/index-museum-cover.jpg') center no-repeat;
   background-size: cover;
   display: flex;
   align-items: center;
   text-align: center;
   position: relative;
-}
-
-
-
-h1 {
-
-}
-
-div{
-
-}
-
-div > p {
-
-}
-
-img {
-
-}
-
-h2 {
-
 }
 
 .paragraph-explore {
@@ -208,67 +186,12 @@ h2 {
   margin: 1rem;
 }
 
-h2 > div {
-
-}
-
-h2 > div > p {
-
-}
-
-h3 {
-
-}
  p {
    color:#21478a;
  }
 
- h3 > p {
-
- }
-
- .events-container {
- }
-
-
- h3 > p > a {
-
- }
-
- h3 > p > a:hover {
-
- }
-
 
 /* contact */
-h1 {
-
-}
-
-
-form {
-
-}
-
-form > table {
-
-}
-
-form > table > tr {
-
-}
-
-form > table > tr > td {
-
-}
-
-form > table > tr > td > input {
-
-}
-
- form > table > tr > td > textarea {
-
- }
 
  .contact-content{
   display: flex;
@@ -327,49 +250,6 @@ form > table > tr > td > input {
 }
 
 /* exhibitions */
-h1 {
-
-}
-
-h1 > img {
-
-}
-
-h2 {
-
-}
-
-.cosmo-p-container {
-
-}
-
-.evo-p-container {
-
-}
-
-.bio-p-container {
-
-}
-
-.robot-p-container {
-
-}
-
-.eco-p-container {
-
-}
-
-h2 > img {
-
-}
-
-h2 > div {
-
-}
-
-h2 > div > p {
-
-}
 
 
 /* get-involved */
@@ -462,49 +342,19 @@ h2 > div > p {
     margin-top: 7.4rem;
 }
 
-
-
 /* visit-us */
-div {
-
-}
-
-h1 {
-
-}
-
-img {
-
-}
-
-.admission-p-container {
-
-}
-
-.hours-p-container {
-
+.p-wrap {
+  background-color: #21478A;
+  min-height: 20rem;
+  color: #fff;
+  padding: 1rem;
+  position: relative;
+  z-index: 0;
+  margin-bottom: 2rem;
 }
 
 
-h2 {
-
-}
-
-div > p {
-
-}
-
-div > p > a {
-
-} 
-
-div > p > a:hover {
-
-}
-
-
-/* FOOTER */
-
+/* FOOTER */Y
 .footer_container {
   margin: 0 auto;
   background-color: #002558;
