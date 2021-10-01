@@ -177,7 +177,27 @@ header {
  }
 
 /* contact */
+.con-container {
+  width: 10rem;
+  height: 8rem;
+}
 
+.form-wrapper {
+  background-color: #21478a;
+  height: 20rem;
+  width:   25rem;
+  color: white;
+}
+
+.contact-heading {
+  font-size: 3rem;
+  left: 2rem;
+  color: #21478A;
+  margin-bottom: 2.5rem;
+  text-align: center;
+  margin-top: 6rem;
+}
+/*
  .contact-content{
   display: flex;
   justify-content: center;
