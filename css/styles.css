@@ -318,7 +318,7 @@ input[type="email"] {
     margin-bottom: 2rem;
 }
 
-.involved-heading{
+.involved-heading {
     font-size: 3rem;
     left: 2rem;
     color: #21478A;
@@ -382,6 +382,15 @@ input[type="email"] {
 }
 
 /* visit-us */
+.visit-heading {
+  font-size: 3rem;
+  left: 2rem;
+  color: #21478A;
+  margin-bottom: 2.5rem;
+  text-align: center;
+  margin-top: 6rem;
+}
+ 
 .p-wrap {
   background-color: #21478A;
   min-height: 20rem;
