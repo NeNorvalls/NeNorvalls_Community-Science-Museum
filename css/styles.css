@@ -205,6 +205,32 @@ header {
   text-align: center;
   margin-top: 6rem;
 }
+
+.con-container {
+  margin: 0 auto;
+  padding: 25px;
+  margin-top: 100px;
+  height: 400px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: transparent;
+  margin-bottom: 3rem;
+  border-radius: 15px;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+input[type="text"],
+input[type="email"] {
+  height: 30px;
+  align-content: center;
+  margin: 0;
+  margin-bottom: 25px;
+  color:#21478a;
+}
 /*
  .contact-content{
   display: flex;
