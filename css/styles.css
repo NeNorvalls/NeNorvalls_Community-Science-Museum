@@ -192,14 +192,6 @@ header {
 
 
 /* contact */
-body {
-  margin: 0 auto;
-  padding: 0px;
-  text-align: center;
-  width: 100%;
-  font-family: 'Open sans';
-  background-color: #002258
-}
 
 .wrapper {
   margin: 0 auto;
@@ -351,7 +343,14 @@ body {
 }
 
 /* exhibitions */
-
+.exhibitions_heading {
+  font-size: 3rem;
+  left: 2rem;
+  color: #21478A;
+  margin-bottom: 2.5rem;
+  text-align: center;
+  margin-top: 6rem;
+}
 
 /* get-involved */
 .container {
@@ -463,9 +462,20 @@ body {
   margin-bottom: 2rem;
 }
 
-h2 , div > p {
+h2 , div p {
   color:#21478a;
 }
+
+/* Events*/
+.events_heading {
+  font-size: 3rem;
+  left: 2rem;
+  color: #21478A;
+  margin-bottom: 2.5rem;
+  text-align: center;
+  margin-top: 6rem;
+}
+
 
 /* FOOTER */
 .footer_container {
