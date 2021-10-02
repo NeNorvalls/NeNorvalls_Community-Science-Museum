@@ -147,18 +147,6 @@ header {
 
 /* Index */
 
-/* Hero styles 
-.hero{
-  width: 100%;
-  height: 100vh;
-  background: url('/images/index-cover.jpg') center no-repeat;
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  position: relative;
-}
-*/
 .index_heading {
   font-size: 3rem;
   left: 2rem;
@@ -173,9 +161,6 @@ header {
   margin: 1rem;
 }
 
-.container > a{
- 
-}
 .container > a:hover {
   background-color: #21478a;
   color: #cefdaf;
