@@ -3,7 +3,6 @@
 *,
 *::before,
 *::after {
-    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -18,13 +17,16 @@ body {
 
 .container {
   width: 100%;
-  max-width: 130rem;
-  padding: 0 1.5rem;
   margin: 0 auto;
 }
 
 main {
     min-height: 100vh;
+}
+
+#content{
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .heading{
@@ -124,41 +126,58 @@ header {
 
 .page-cover {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   background: url('/images/index-cover.jpg') center no-repeat;
   background-size: cover;
+  background-position: center;
   display: flex;
   align-items: center;
   text-align: center;
   position: relative;
 }
-  
-.blue_text .white_text {
- font-size: 3rem;
- left: 2rem;
- margin-bottom: 2.5rem;
- text-align: center;
- margin-top: 6rem;
- }
 
+ h1 {
+   font-size: 4rem;
+   text-align: center;
+ }
  .white_text {
    color: #fff;
  }
 
- .blu_text {
+ .blue_text {
    color:#21478A;
  }
-.container > paragraph {
-      margin: 1rem;
-    }
-
-    .container > a:hover {
-      background-color: #21478a;
-      color: #cefdaf;
-    }
-
     
     /* Index Page */
+
+    .welcome-container {
+      display: flex;
+      justify-content: center;
+      position: relative;
+    }
+
+    .welcome-heading {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
+    .welcome-heading h2 {
+      font-size: 18px;
+      font-weight: 400;
+    }
+
+    .welcome-img{
+      width: 100%;
+      max-width: 800px;
+    }
+
+    .explore-btn {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
   .p-wrap {
     background-color: #21478a;
     max-width: 100%;
@@ -170,18 +189,23 @@ header {
     max-width: 100%;
     height: auto;
   }
+
+  .max-width{
+    max-width: 80%;
+  }
  
 
-    /* get-involved */
-    .container {
-      width: 100%;
-      max-width: 80rem;
-      padding: 0 1.5rem;
-      margin: 0 auto;
-      margin-bottom: 7rem;
+  .h2-heading{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 3rem;
   }
 
+    /* get-involved */
+
 .img-container{
+  width: 100%;
+  height: 100%;
   text-align: center;
   margin-bottom: 7rem;
 }
@@ -225,7 +249,11 @@ header {
 }
 
 .paragraph {
-  color: #fff;
+  text-align: left;
+  margin: 0 auto;
+  padding: 1rem;
+  max-width: 800px;
+  font-size: 1.2rem;
 }
 
 .section-heading {
@@ -233,9 +261,6 @@ header {
   margin-bottom: 5rem;
 }
 
-.paragraph{
-margin-bottom: 2rem;
-}
 .btn-wrap {
 margin-top: auto;
 margin-bottom: 2rem;
@@ -250,7 +275,6 @@ margin-bottom: 2rem;
       padding: .5rem 2.3rem;
       border: none;
       border-radius: 10rem;
-      right: 2rem;
       text-decoration: none;
 }
 
@@ -283,16 +307,6 @@ margin-bottom: 2rem;
     text-align: center;
     margin-top: 6rem;
   }
-   
-  .p-wrap {
-    background-color: #21478A;
-    min-height: 20rem;
-    color: #fff;
-    padding: 1rem;
-    position: relative;
-    z-index: 0;
-    margin-bottom: 2rem;
-  }
   
 
  /* contact */
@@ -313,12 +327,6 @@ margin-bottom: 2rem;
   text-align: center;
   width: 995px;
   margin-top: 100px;
-}
-
-.wrapper h1 {
-  margin-top: 50px;
-  font-size: 45px;
-  color: #ffffff;
 }
 
 .wrapper h1 p {
@@ -477,21 +485,21 @@ input {
   padding: 1rem 1rem;
 }
 
+.footer-info-container{
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+
 .footer-wrap{
   background-color: #21478A;
-    min-height: 15rem;
-    width: 10rem;
     padding: 1rem;
+    width: 20rem;
     position: relative;
     z-index: 0;
     margin-bottom: 2rem;
     display: inline-block;
-}
-
-.footer-wrap > a {
-  text-decoration: none;
-  text-align: center;
-  color: #fff;
 }
 
 span.footer-links,
@@ -508,7 +516,8 @@ span.copy {
   transition: .2s ease-in;
 }
 
-.fab {
+.fab, .fas {
+  color: #fff;
   margin-top: 10px;
   font-size: 22px;
   padding: 5px;
@@ -522,13 +531,25 @@ span.copy {
 .social-media {
   margin-bottom: 10px;
   margin-top: 10px;
+  text-align: center;
+}
+
+.copy-container {
+  text-align: center;
+}
+
+.btn-flex {
+  display: flex;
 }
 
 .a-btn {
- width: 1rem;
- height:1rem;
- border: .05rem solid #fff;
- border-radius: .02rem;
+ padding: .8rem;
+ margin-top: 3rem;
+ border: .05rem solid #002558;
+ text-decoration: none;
+ border-radius: 2rem;
  margin-top: 1rem;
- background-color: #21478a;
+ background-color: #fff;
+ justify-content: center;
+ flex-wrap: wrap;
 }
