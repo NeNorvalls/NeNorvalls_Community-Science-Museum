@@ -133,15 +133,21 @@ header {
   position: relative;
 }
   
-.blue_text {
+.blue_text .white_text {
  font-size: 3rem;
  left: 2rem;
- color: #21478A;
  margin-bottom: 2.5rem;
  text-align: center;
  margin-top: 6rem;
  }
 
+ .white_text {
+   color: #fff;
+ }
+
+ .blu_text {
+   color:#21478A;
+ }
 .container > paragraph {
       margin: 1rem;
     }
