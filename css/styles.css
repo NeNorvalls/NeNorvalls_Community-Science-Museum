@@ -162,6 +162,16 @@ header {
 
 
  /* contact */
+.contact-body {
+  width: 100%;
+  height: 100vh;
+  background: url('/images/img3.jpg') center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
 
 .wrapper {
   margin: 0 auto;
