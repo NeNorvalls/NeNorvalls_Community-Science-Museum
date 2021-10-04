@@ -253,7 +253,7 @@ header {
 .paragraph {
   text-align: left;
   margin: 0 auto;
-  padding: 1rem;
+  padding: .5rem;
   max-width: 800px;
   font-size: 1.2rem;
 }
@@ -309,7 +309,18 @@ margin-bottom: 2rem;
     text-align: center;
     margin-top: 6rem;
   }
-  
+
+  .wrapper {
+    display: inline-block;
+    border: 2px solid #21478a;
+    display: relative;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .hours {
+
+  }
 
  /* contact */
 /*.contact-body {
@@ -550,4 +561,8 @@ span.copy {
  background-color: #fff;
  justify-content: center;
  flex-wrap: wrap;
+}
+
+th, td {
+  color: #fff;
 }
