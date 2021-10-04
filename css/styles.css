@@ -191,8 +191,9 @@ header {
     height: auto;
   }
 
-  .max-width{
-    max-width: 80%;
+  .max-width {
+    width: 100%;
+    text-align: center;
   }
  
 
