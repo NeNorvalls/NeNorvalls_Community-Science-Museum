@@ -223,8 +223,10 @@ header {
   position: relative;
   z-index: 0;
   margin-bottom: 2rem;
-  text-align: center;
+  grid-row-start: 1;
+  grid-row-end: 3;
 }
+
 
 .involved-heading {
   font-size: 3rem;
@@ -311,23 +313,11 @@ margin-bottom: 2rem;
   }
 
   .wrapper {
-    border: 2px solid #21478a;
     display: relative;
     padding: 1rem;
   }
- 
- /* contact */
-/*.contact-body {
-  width: 100%;
-  height: 100vh;
-  background: url('/images/science.jpg') center no-repeat;
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  position: relative;
-}*/
 
+ /* contact */
 .wrapper {
   margin: 0 auto;
   padding: 0px;
@@ -341,10 +331,13 @@ margin-bottom: 2rem;
 }
 
 .contact_form {
-  width: 330px;
+  width: 350px;
+  height: 600px;
   margin-left: 320px;
   padding: 10px;
   background-color:#21478A;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .contact_form .title {
@@ -387,7 +380,6 @@ margin-bottom: 2rem;
 input {
   width: 100%;
 }
-
 
 
 @media only screen and (min-width: 700px) and (max-width: 995px) {
@@ -556,6 +548,7 @@ span.copy {
  justify-content: center;
  flex-wrap: wrap;
 }
+
 
 th, td {
   color: #fff;
