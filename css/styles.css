@@ -122,6 +122,12 @@ header {
   font-weight: bold;
   margin-left: 1.5rem;
   text-transform: uppercase;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  color: #cefdaf;
+  transition: .1s ease-in;
 }
 
 .page-cover {
@@ -203,8 +209,9 @@ header {
     margin-top: 3rem;
   }
 
-    /* get-involved */
 
+
+    /* get-involved */
 .img-container{
   width: 100%;
   height: 100%;
@@ -223,8 +230,6 @@ header {
   position: relative;
   z-index: 0;
   margin-bottom: 2rem;
-  grid-row-start: 1;
-  grid-row-end: 3;
 }
 
 
@@ -267,20 +272,20 @@ header {
 }
 
 .btn-wrap {
-margin-top: auto;
-margin-bottom: 2rem;
+  margin-top: auto;
+  margin-bottom: 2rem;
 }
 
-.btn{
-      color: #21478A;
-      background-color: #fff;
-      font-size: 1rem;
-      font-weight: bold;
-      text-transform: uppercase;
-      padding: .5rem 2.3rem;
-      border: none;
-      border-radius: 10rem;
-      text-decoration: none;
+.btn {
+  color: #21478A;
+  background-color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: .5rem 2.3rem;
+  border: none;
+  border-radius: 10rem;
+  text-decoration: none;
 }
 
 .contact-btn{
@@ -310,14 +315,6 @@ margin-bottom: 2rem;
     color: #21478A;
     margin-bottom: 2.5rem;
     margin-top: 6rem;
-  }
-
-  .wrapper {
-    display: relative;
-  }
-
-  .grid-item {
-
   }
 
  /* contact */
