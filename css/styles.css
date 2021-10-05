@@ -464,7 +464,6 @@ span.copy {
 }
 
 .a-btn {
- padding: .8rem;
  margin-top: 3rem;
  border: .05rem solid #002558;
  text-decoration: none;
@@ -474,6 +473,8 @@ span.copy {
  justify-content: center;
  flex-wrap: wrap;
 }
+
+
 
 
 th, td {
