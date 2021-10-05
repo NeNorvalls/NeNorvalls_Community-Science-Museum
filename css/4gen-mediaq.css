@@ -26,7 +26,7 @@
   
   }
   
-  @media only scree and (min-width:400px) and (max-width:699px) {
+  @media only screen and (min-width:400px) and (max-width:699px) {
   
    .wrapper {
     width: 100%;
@@ -83,6 +83,6 @@
 
   /* Index */
 
-  @media screen and ()
-      
+  @media only screen and (min-width: 270px) {
+    
   }

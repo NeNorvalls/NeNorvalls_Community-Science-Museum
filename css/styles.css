@@ -81,7 +81,6 @@ main {
 }
 
 
-
 /* Header */
 header {
   height: 4.5rem;
@@ -113,10 +112,12 @@ header {
 
 
 .topnav {
+  overflow: hidden;
   display: inline-block;
   margin-right: 3rem;
 }
 .topnav a {
+  display: inline-block;
   color: #fff;
   font-size: 14px;
   font-weight: bold;
@@ -324,11 +325,11 @@ header {
   background-size: cover;
  }
 .wrapper {
+  display: flex;
   margin: 0 auto;
   padding: 0px;
   text-align: center;
-  width: 995px;
-  margin-top: 100px;
+  max-width: 995px;
 }
 
 .wrapper h1 p {
@@ -336,19 +337,16 @@ header {
 }
 
 .contact_form {
-  width: 350px;
-  height: 600px;
-  margin-left: 320px;
+  max-width: 350px;
+  min-height: 600px;
+  margin: 0 auto;
   padding: 10px;
   background-color:#21478A;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
 }
 
 .contact_form .title {
-  margin: 15px;
-  margin-bottom: 30px;
-  font-size: 25px;
+  margin: 15px 15px 30px 15px;
+  font-size: 20px;
   font-weight: bold;
   color: white;
   text-decoration: underline;
@@ -496,46 +494,54 @@ table {
 }
 
 
-/* Hamburger */
 
-.animation {
-  display: none;
-}
 
-.line {
-  height: 0.2rem;
-  width: 2.3rem;
-  margin-bottom: 0.6rem;
-  background-color: #fff;
-  transition: all 0.4s;
-  display: block;
-}
+/* Header Responsiveness */
 
-.hamburger-icon {
-  position: absolute;
-  right: 20px;
-  top: 20px;
-}
+@media screen and (max-width: 1024px) {
+  header {
+    height: 6rem;
+  }
 
-.hamburger-icon:hover .line {
-  width: 2.5rem;
-}
+  header .topnav {
+    display: block;
+    background-color: #002558;
+  }
+  .topnav a {
+    display: block;
+    /* margin: 20px 0 20px 0; */
+  }
+  .hamburger-icon {
+    cursor: pointer;
+    position: absolute;
+    margin: 0.5rem 1.3rem 0 0;
+    /* margin-left: 85vw; */
+  }
+  .animation {
+    display: block;
+    margin: 0.5rem 1rem 0 0;
+  }
+  
+  .checkbox ~ .topnav {
+    display: none;
+  }
 
-.checkbox:checked ~ .topnav {
-  margin-left: 0;
-  transition: all 0.4s;
-}
+  .checkbox:checked ~ .topnav {
+    display: block;
+    position: absolute;
+    top: 5.9rem;
+    width: 100%;
+    text-align: center;
+  }
+  .checkbox:checked ~ .topnav > a,
+  .checkbox:checked ~ .topnav > div {
+    /* display: inline-block; */
+    float: none;
+    margin: 1rem 0 1rem 0;
+  }
 
-.checkbox:checked ~ .animation .line-1 {
-  transform: rotate(-405deg) translate(-12px, 6px);
-  width: 2.5rem;
-}
-
-.checkbox:checked ~ .animation .line-2 {
-  opacity: 0;
-}
-
-.checkbox:checked ~ .animation .line-3 {
-  transform: rotate(405deg) translate(-12px, -6px);
-  width: 2.5rem;
+  .checkbox:checked ~ .topnav > .search-container {
+    width: 50%;
+    min-width: 200px;
+  }
 }
