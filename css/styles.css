@@ -314,7 +314,10 @@ margin-bottom: 2rem;
 
   .wrapper {
     display: relative;
-    padding: 1rem;
+  }
+
+  .grid-item {
+
   }
 
  /* contact */
@@ -386,87 +389,7 @@ input {
 }
 
 
-@media only screen and (min-width: 700px) and (max-width: 995px) {
 
-  .wrapper {
-    width:100%;
-  }
-
-  .contact_form {
-    width: 50%;
-    margin-left: 25%;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
-  .contact_form input[type="text"] {
-    width: 80%;
-  }
-
-  .contact_form textarea {
-    width: 80%;
-  }    
-
-  .contact_form input[type="submit"] {
-   width: 80%;
-  }
-
-}
-
-@media only scree and (min-width:400px) and (max-width:699px) {
-
- .wrapper {
-  width: 100%;
- }
-
- .wrapper h1 {
-   font-size: 30px;
- }
-
- .contact_form {
-   width: 60%;
-   margin-left: 20%;
- }
-
- .contact_form input [type="text"] {
-   width: 80%;
- }
-
- .contact_form textarea {
-   width: 80%;
- }
-
- .contact_ form input[type="subnit"] {
-   width: 80%;
- }
-
-}
-
-@media only screen and (min-width: 100px) and (max-width: 399px) {
- .wrapper {
-    width: 100%;
- }
-
- .wrapper h1 {
-    font-size: 25px;
- }
-
- .contact_form {
-   width: 90%;
-   margin-left: 5%;
-   padding-left: 0px;
-   padding-right: 0px;
- }
-
- .contact_form input[type="text"] {
-   width: 80%;
- }
-
- .contact_form input[type="submit"] {
-   width: 80%;
-  }
-  
-}
 
  /* Events*/
  .events-container {
@@ -493,12 +416,13 @@ input {
 
 .footer-wrap{
   background-color: #21478A;
-    padding: 1rem;
-    width: 20rem;
-    position: relative;
-    z-index: 0;
-    margin-bottom: 2rem;
-    display: inline-block;
+  padding: 1rem;
+  width: 20rem;
+  position: relative;
+  z-index: 0;
+  margin-bottom: 2rem;
+  display: inline-block;
+  text-align: center;
 }
 
 span.footer-links,
@@ -570,4 +494,49 @@ td {
 
 table {
   margin: 0 auto;
+}
+
+
+/* Hamburger */
+
+.animation {
+  display: none;
+}
+
+.line {
+  height: 0.2rem;
+  width: 2.3rem;
+  margin-bottom: 0.6rem;
+  background-color: #fff;
+  transition: all 0.4s;
+  display: block;
+}
+
+.hamburger-icon {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.hamburger-icon:hover .line {
+  width: 2.5rem;
+}
+
+.checkbox:checked ~ .topnav {
+  margin-left: 0;
+  transition: all 0.4s;
+}
+
+.checkbox:checked ~ .animation .line-1 {
+  transform: rotate(-405deg) translate(-12px, 6px);
+  width: 2.5rem;
+}
+
+.checkbox:checked ~ .animation .line-2 {
+  opacity: 0;
+}
+
+.checkbox:checked ~ .animation .line-3 {
+  transform: rotate(405deg) translate(-12px, -6px);
+  width: 2.5rem;
 }
