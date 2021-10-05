@@ -318,13 +318,16 @@ margin-bottom: 2rem;
   }
 
  /* contact */
+
+ .contact-body {
+  background: url('/images/contact4.jpg') center no-repeat;
+ }
 .wrapper {
   margin: 0 auto;
   padding: 0px;
   text-align: center;
   width: 995px;
   margin-top: 100px;
-  background: url('/images/contact4.jpg') center no-repeat;
 }
 
 .wrapper h1 p {
@@ -553,4 +556,18 @@ span.copy {
 
 th, td {
   color: #fff;
+  text-align: left;
+}
+
+th {
+ 
+  padding-right: 1rem;
+}
+
+td {
+  padding-left: 1rem;
+}
+
+table {
+  margin: 0 auto;
 }
