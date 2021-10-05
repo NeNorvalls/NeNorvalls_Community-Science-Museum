@@ -321,6 +321,7 @@ header {
 
  .contact-body {
   background: url('/images/contact4.jpg') center no-repeat;
+  background-size: cover;
  }
 .wrapper {
   margin: 0 auto;
