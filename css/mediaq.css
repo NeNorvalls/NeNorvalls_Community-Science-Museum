@@ -1,6 +1,8 @@
 
 /*Index*/
 @media only screen and (min-width: 270px) and (max-with: 995px)
-.page-cover {
-    max-width: 100vw;
+ {
+    .page-cover {
+        max-width: 100%;
+    } 
 }
