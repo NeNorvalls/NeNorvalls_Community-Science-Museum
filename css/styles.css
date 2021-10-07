@@ -210,13 +210,7 @@ header {
     margin-top: 3rem;
   }
 
-  @media only screen and (min-width: 270px) and (max-with: 995px)
-  {
-     .page-cover {
-         max-width: 100%;
-     } 
- }
-
+ 
     /* get-involved */
 .img-container{
   width: 100%;
@@ -390,7 +384,7 @@ input {
 }
 
 /* Contact Media Query */
-@media only screen and (max-width: 1024px)
+@media only screen and (max-width: 1024px){
 
   .wrapper {
     width:100%;
