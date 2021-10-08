@@ -554,6 +554,7 @@ span.copy {
 
 .btn-flex {
   display: flex;
+  justify-content: center;
 }
 
 .a-btn {
