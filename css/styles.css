@@ -695,6 +695,10 @@ table {
     max-height: 400px;
     max-width: 400px;
   }
+
+  .img.img {
+    max-width: 100%;
+  }
 }
 
 @media screen and (max-width: 600px) {
