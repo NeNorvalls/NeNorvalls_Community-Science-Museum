@@ -416,6 +416,7 @@ input {
    width: 80%;
   }
 
+
 }
 
 @media only screen and (min-width:400px) and (max-width:699px) {
@@ -696,7 +697,7 @@ table {
     max-width: 400px;
   }
 
-  .img.img {
+  .img-img {
     max-width: 100%;
   }
 }
