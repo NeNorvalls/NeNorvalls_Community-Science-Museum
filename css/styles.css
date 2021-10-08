@@ -194,11 +194,14 @@ header {
     max-width: 100%;
     height: auto;
     margin: 1rem;
+    text-align:center;
   }
   
   .img-img {
-    max-width: 100%;
+    max-width: 800px;
     height: auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
   }
 
   .max-width {
@@ -473,7 +476,8 @@ input {
   border:3px solid#21478A;
   margin: 1rem;
   padding: 1rem;
-}
+  text-align: center;
+ }
 
 .events-btn-container {
   text-align: center;
