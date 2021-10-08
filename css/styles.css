@@ -126,12 +126,16 @@ header {
   font-weight: bold;
   margin-left: 1.5rem;
   text-transform: uppercase;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .topnav a:hover {
-  color: #cefdaf;
+  color: #fff200;
   transition: .1s ease-in;
+}
+
+.active {
+  
 }
 
 .page-cover {
@@ -277,7 +281,7 @@ header {
 
 .btn {
   color: #21478A;
-  background-color: #fff;
+  background-color: #fff200;
   font-size: 1rem;
   font-weight: bold;
   text-transform: uppercase;
@@ -479,7 +483,7 @@ input {
 
 .events-btn {
   background-color: #002558;
-  color: #cefdaf
+  color: #fff200;
 }
 
 .events-btn:hover {
@@ -521,10 +525,10 @@ span.copy {
   font-size: 12px;
 }
 
-.footer-links a:hover {
+/*.footer-links a:hover {
   color: #cefdaf;
   transition: .2s ease-in;
-}
+}*/
 
 .fab, .fas {
   color: #fff;
@@ -534,7 +538,7 @@ span.copy {
 }
 
 .fab:hover {
-  color: #cefdaf;
+  color: #fff200;
   transition: .2s ease-in;
 }
 
@@ -558,7 +562,7 @@ span.copy {
  text-decoration: none;
  border-radius: 2rem;
  margin-top: 1rem;
- background-color: #fff;
+ background-color: #fff200;
  justify-content: center;
  flex-wrap: wrap;
 }
