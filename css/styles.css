@@ -481,6 +481,11 @@ input {
   background-color: #002558;
   color: #cefdaf
 }
+
+.events-btn:hover {
+  color: #fff;
+  transition: .4s ease-in;
+}
     
     /* FOOTER */
 .footer_container {
