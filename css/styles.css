@@ -270,6 +270,7 @@ header {
   max-width: 800px;
   font-size: 1.2rem;
   margin-bottom: 1.5rem;
+  padding: 1rem;
 }
 
 .section-heading {
@@ -329,6 +330,7 @@ header {
   background: url('/images/contact4.jpg') center no-repeat;
   background-size: cover;
  }
+
 .wrapper {
   margin: 0 auto;
   padding: 0px;
