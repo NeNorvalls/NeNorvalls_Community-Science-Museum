@@ -136,9 +136,6 @@ header {
 
 .page-cover {
   width: 100%;
-  background: url('/images/index-cover.jpg') center no-repeat;
-  background-size: cover;
-  background-position: center;
   display: flex;
   align-items: center;
   text-align: center;
@@ -467,9 +464,6 @@ input {
 }
 
 
-
-
-
  /* Events*/
  .events-container {
   border:3px solid#21478A;
@@ -477,7 +471,16 @@ input {
   padding: 1rem;
 }
 
+.events-btn-container {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3.1rem;
+}
 
+.events-btn {
+  background-color: #002558;
+  color: #cefdaf
+}
     
     /* FOOTER */
 .footer_container {
@@ -662,7 +665,11 @@ table {
 
   .img-container{
     margin-bottom: 3rem;
-    /* margin-top: 5rem; */
+    margin-top: 4.5rem;
+  }
+
+  #img-margin {
+    margin-top: 0;
   }
 
   .wrapper {
