@@ -126,6 +126,9 @@ header {
   font-weight: bold;
   margin-left: 1.5rem;
   text-transform: uppercase;
+}
+
+.topnav a .active {
   text-decoration: underline;
 }
 
@@ -134,9 +137,6 @@ header {
   transition: .1s ease-in;
 }
 
-.active {
-  
-}
 
 .page-cover {
   width: 100%;
