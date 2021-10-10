@@ -278,6 +278,12 @@ header {
   margin-bottom: 1.5rem;
 }
 
+@media screen and (max-width: 900px) {
+  .paragraph {
+    padding: 0 1rem 0 1rem;
+  }
+}
+
 .section-heading {
   text-align: center;
   margin-bottom: 5rem;
@@ -707,7 +713,6 @@ table {
   .img-img {
     max-width: 100%;
   }
-
 }
 
 @media screen and (max-width: 600px) {
