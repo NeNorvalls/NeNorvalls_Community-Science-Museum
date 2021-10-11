@@ -119,24 +119,32 @@ header {
   display: inline-block;
   margin-right: 3rem;
 }
-.topnav a {
+.topnav a{
   display: inline-block;
   color: #fff;
   font-size: 14px;
   font-weight: bold;
   margin-left: 1.5rem;
   text-transform: uppercase;
+  text-decoration: underline;
 }
 
-.topnav a .active {
-  text-decoration: underline;
+.active {
+  border: 20px 5px 20px 5px;
+  border-radius: 2px solid #fff200;
+  padding: 1rem;
+}
+
+.active:hover {
+  transition: 3s ease-in-out;
+  text-decoration: none;
+  background-color: #21478A;
 }
 
 .topnav a:hover {
   color: #fff200;
   transition: .1s ease-in;
 }
-
 
 .page-cover {
   width: 100%;
@@ -380,7 +388,8 @@ header {
   text-decoration: underline;
 }
 
-.contact_form input[type="text"] {
+.contact_form input[type="text"],
+input[type="email"] {
   width: 230px;
   height: 40px;
   border-radius: 2px;
@@ -397,7 +406,7 @@ header {
   padding: 5px;
 }
 
-.contact_form input[type="submit"] {
+/*.contact_form input[type="submit"] {
   width: 230px;
   height: 40px;
   border: none;
@@ -406,7 +415,7 @@ header {
   background-color: 3px solid #21478a;
   font-weight: bold;
   color:#21478a;
-}
+}*/
 
 input {
   width: 100%;
