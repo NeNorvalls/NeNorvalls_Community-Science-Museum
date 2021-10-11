@@ -140,10 +140,10 @@ header {
 
 .page-cover {
   width: 100%;
-  /* display: flex;
-  align-items: center;
-  text-align: center;
-  position: relative; */
+}
+
+#visit-cover {
+  margin-top: 4rem;
 }
 
  h1 {
