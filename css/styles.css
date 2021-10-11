@@ -215,6 +215,11 @@ header {
       transform: translate(-50%, -50%);
     }
 
+    .explore-btn:hover, .a-btn:hover, .contact-btn:hover {
+      background-color: #fff;
+      transition: .2s ease-in-out;
+    }
+
   .p-wrap {
     background-color: #21478a;
     max-width: 100%;
@@ -403,7 +408,7 @@ input {
   width: 100%;
 }
 
-/* Contact Media Query */
+/* 1024 Media Query */
 @media only screen and (max-width: 1024px){
 
   .wrapper {
@@ -429,7 +434,9 @@ input {
    width: 80%;
   }
 
-
+  #visit-cover {
+    margin-top: 0;
+  }
 }
 
 @media only screen and (min-width:400px) and (max-width:699px) {
