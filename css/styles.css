@@ -135,9 +135,6 @@ header {
 }
 
 .active {
-  /* border: 20px 5px 20px 5px; */
-  /* padding: 1rem; */
-  color: #fff200;
   text-decoration: none;
 }
 
@@ -148,9 +145,9 @@ header {
 
 .topnav a:hover {
   background-color: #21478A;
-  color: #fff200;
   transition: .1s ease-in;
   text-decoration: underline;
+  color: #fff200;
 }
 
 iframe {
