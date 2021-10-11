@@ -218,7 +218,8 @@ header {
     .explore-btn:hover, 
     .a-btn:hover,
      .contact-btn:hover, 
-     .donate-btn:hover {
+     .donate-btn:hover,
+     .submit-btn:hover {
       background-color: #fff;
       transition: .2s ease-in-out;
     }
