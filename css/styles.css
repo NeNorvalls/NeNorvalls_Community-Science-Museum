@@ -215,7 +215,10 @@ header {
       transform: translate(-50%, -50%);
     }
 
-    .explore-btn:hover, .a-btn:hover, .contact-btn:hover {
+    .explore-btn:hover, 
+    .a-btn:hover,
+     .contact-btn:hover, 
+     .donate-btn:hover {
       background-color: #fff;
       transition: .2s ease-in-out;
     }
