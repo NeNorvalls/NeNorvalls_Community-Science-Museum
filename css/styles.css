@@ -30,7 +30,7 @@ main {
 }
 
 #content{
-  max-width: 1200px;
+  max-width: 70vw;
   margin: 0 auto;
 }
 
@@ -757,6 +757,23 @@ table {
 
   .img-img {
     max-width: 100%;
+  }
+
+  #content {
+    max-width: 90vw;
+  }
+}
+
+/* Full content responsiveness */
+@media screen and (max-width: 1400px) {
+  #content {
+    max-width: 85vw;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  #content {
+    max-width: 95vw;
   }
 }
 
