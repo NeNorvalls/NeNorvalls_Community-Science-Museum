@@ -165,6 +165,14 @@ iframe {
   margin-top: 4rem;
 }
 
+.visit-heading,
+.index-heading,
+.exhibition-heading,
+.involved-heading,
+.events-heading {
+  font-size: 5rem;
+}
+
 .visit-p {
   text-align: center;
   margin: 0 2rem 1rem 2rem;
