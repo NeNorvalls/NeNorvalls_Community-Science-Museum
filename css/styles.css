@@ -405,7 +405,7 @@ iframe {
 .contact_form {
   max-width: 350px;
   min-height: 350px;
-  max-height: 60vh;
+  max-height: 75vh;
   margin: 0 auto;
   padding: 10px;
   background-color:#21478A;
@@ -442,7 +442,8 @@ input[type="email"] {
 }
 
 .submit-btn {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 /*.contact_form input[type="submit"] {
