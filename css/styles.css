@@ -287,7 +287,7 @@ iframe {
   .h2-heading{
     text-align: center;
     font-size: 1.3rem;
-    margin-top: 3rem;
+    margin-top: 2.5rem;
   }
 
  
@@ -298,7 +298,7 @@ iframe {
   color: #21478A;
   margin-bottom: 2.5rem;
   text-align: center;
-  margin-top: 3.5rem;
+  margin-top: 3rem;
 }
 
 .involved-sub-heading {
@@ -378,11 +378,10 @@ iframe {
 
   /* visit-us */
   .visit-heading {
-    font-size: 3rem;
     left: 2rem;
     color: #21478A;
     margin-bottom: 2.5rem;
-    margin-top: 6rem;
+    margin-top: 3rem;
   }
 
  /* contact */
