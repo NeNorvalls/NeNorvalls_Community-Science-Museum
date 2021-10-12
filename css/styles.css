@@ -171,9 +171,9 @@ a.active {
   text-decoration: underline;
 }
 
-a.active:hover {
+/*a.active:hover {
   transition: 3s ease-in-out;
-}
+}*/
 
 .topnav a:hover {
   transition: .1s ease-in;
