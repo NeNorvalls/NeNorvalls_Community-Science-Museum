@@ -118,7 +118,7 @@ header {
 .mobile-logo-text {
   display: none;
 }
-
+/*
 .topnav {
   overflow: hidden;
   display: inline-block;
@@ -126,7 +126,7 @@ header {
 }
 .topnav a{
   display: inline-block;
-  color: #fff;
+  color:#fff200;
   font-size: 14px;
   font-weight: bold;
   margin-left: 1.5rem;
@@ -135,22 +135,50 @@ header {
 }
 
 a.active {
+  color: #fff;
+  text-decoration: none;
   text-decoration: underline;
-  color: #fff200;
 }
 
-.active:hover {
+a.active:hover {
   transition: 3s ease-in-out;
-  
 }
 
 .topnav a:hover {
- 
   transition: .1s ease-in;
-  text-decoration: underline;
   color: #21478A;
 }
+*/
 
+.topnav {
+  overflow: hidden;
+  display: inline-block;
+  margin-right: 3rem;
+}
+.topnav a {
+  display: inline-block;
+  color:#fff200;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 1.5rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+a.active {
+  color: #fff;
+  text-decoration: none;
+  text-decoration: underline;
+}
+
+a.active:hover {
+  transition: 3s ease-in-out;
+}
+
+.topnav a:hover {
+  transition: .1s ease-in;
+  color: #fff;
+}
 iframe {
   margin: 1.5rem 0 1.5rem 0;
 }
