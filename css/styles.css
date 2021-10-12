@@ -134,20 +134,21 @@ header {
   text-decoration: none;
 }
 
-.active {
-  text-decoration: none;
+a.active {
+  text-decoration: underline;
+  color: #fff200;
 }
 
 .active:hover {
   transition: 3s ease-in-out;
-  text-decoration: underline;
+  
 }
 
 .topnav a:hover {
-  background-color: #21478A;
+ 
   transition: .1s ease-in;
   text-decoration: underline;
-  color: #fff200;
+  color: #21478A;
 }
 
 iframe {
