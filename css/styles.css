@@ -563,12 +563,12 @@ input {
 }
 
 .events-btn {
-  background-color: #21478a;
-  color: #fff;
+  background-color: #fff200;
+  color:#002558;
 }
 
 .events-btn:hover {
-  color: #fff200;
+  color: #fff;
   transition: .4s ease-in;
 }
     
