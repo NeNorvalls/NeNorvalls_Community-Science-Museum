@@ -475,17 +475,6 @@ input[type="email"] {
   margin-bottom: 2rem;
 }
 
-/*.contact_form input[type="submit"] {
-  width: 230px;
-  height: 40px;
-  border: none;
-  border-radius: 2px;
-  font-size: 17px;
-  background-color: 3px solid #21478a;
-  font-weight: bold;
-  color:#21478a;
-}*/
-
 input {
   width: 100%;
 }
@@ -811,9 +800,14 @@ table {
 }
 
 @media screen and (max-width: 600px) {
-  h1 {
-    font-size: 1.7rem;
-  }
+
+  .visit-heading,
+.index-heading,
+.exhibition-heading,
+.involved-heading,
+.events-heading {
+  font-size: 1.7rem;
+}
   .welcome-heading h2{
     font-size: 0.9rem;
   }
