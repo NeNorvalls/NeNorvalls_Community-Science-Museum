@@ -545,9 +545,8 @@ input {
    width: 90%;
    padding-left: 0px;
    padding-right: 0px;
- }
+  }
 }
-
 
  /* Events*/
  .events-container {
@@ -610,10 +609,6 @@ span.copy {
   font-size: 12px;
 }
 
-/*.footer-links a:hover {
-  color: #cefdaf;
-  transition: .2s ease-in;
-}*/
 
 .fab, .fas {
   color: #fff;
