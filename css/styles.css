@@ -564,11 +564,12 @@ input {
 
 .events-btn {
   background-color: #fff200;
-  color:#002558;
+  color:#21478A;
 }
 
 .events-btn:hover {
-  color: #fff;
+  background-color: #21478A;
+  color: #fff200;
   transition: .4s ease-in;
 }
     
