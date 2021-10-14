@@ -562,6 +562,7 @@ input {
 }
 
 .events-btn {
+  border: 1px solid #21478A;
   background-color: #fff200;
   color:#21478A;
 }
