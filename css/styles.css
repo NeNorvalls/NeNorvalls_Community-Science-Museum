@@ -118,37 +118,6 @@ header {
 .mobile-logo-text {
   display: none;
 }
-/*
-.topnav {
-  overflow: hidden;
-  display: inline-block;
-  margin-right: 3rem;
-}
-.topnav a{
-  display: inline-block;
-  color:#fff200;
-  font-size: 14px;
-  font-weight: bold;
-  margin-left: 1.5rem;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
-a.active {
-  color: #fff;
-  text-decoration: none;
-  text-decoration: underline;
-}
-
-a.active:hover {
-  transition: 3s ease-in-out;
-}
-
-.topnav a:hover {
-  transition: .1s ease-in;
-  color: #21478A;
-}
-*/
 
 .topnav {
   overflow: hidden;
@@ -170,10 +139,6 @@ a.active {
   text-decoration: none;
   text-decoration: underline;
 }
-
-/*a.active:hover {
-  transition: 3s ease-in-out;
-}*/
 
 .topnav a:hover {
   transition: .1s ease-in;
@@ -214,7 +179,6 @@ iframe {
 }
 
  h1 {
-   /* font-size: 3rem; */
    text-align: center;
  }
 
@@ -232,7 +196,6 @@ iframe {
   width: 100%;
   height: 100%;
   text-align: center;
-  /* margin-bottom: 7rem; */
 }
 
 .cover-img {
@@ -240,7 +203,6 @@ iframe {
 }
 .p-wrap {
   background-color: #21478A;
-  /*min-height: 20rem;*/
   color: #fff;
   padding: 1rem;
   position: relative;
@@ -711,10 +673,11 @@ table {
     display: block;
     background-color: #002558;
   }
+
   .topnav a {
     display: block;
-    /* margin: 20px 0 20px 0; */
   }
+
   .hamburger-icon {
     cursor: pointer;
     position: absolute;
@@ -736,9 +699,9 @@ table {
     width: 100%;
     text-align: center;
   }
+  
   .checkbox:checked ~ .topnav > a,
   .checkbox:checked ~ .topnav > div {
-    /* display: inline-block; */
     float: none;
     margin: 1rem 0 1rem 0;
   }
