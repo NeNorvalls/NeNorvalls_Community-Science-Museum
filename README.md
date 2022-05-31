@@ -1,6 +1,6 @@
 # Community Science Museum
 
-![Community Science Museum](https://ibb.co/s99PpyQ)
+![Community Science Museum](https://i.ibb.co/s99PpyQ/community-science-museum.png)
 
 ## Description
 
