@@ -778,13 +778,27 @@ table {
   }
 }
 
-.go-back-button {
-  background-color: #007bff;
-  color: #fff;
-  padding: 8px 16px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-bottom: 3rem;
-  margin-left: 1rem;
+#portfolio-text {
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-decoration: solid;
+}
+
+.portfolio-link {
+  text-decoration: underline;
+  font-size: 24px;
+  color: darkred;
+  letter-spacing: 3px;
+}
+
+.portfolio-link:hover {
+  text-decoration: double;
+  background-color: gold;
+  color: blue;
+}
+
+#portfolio-text,
+.portfolio-link {
+  text-align: center;
 }
